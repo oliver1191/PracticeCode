@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\bin\Debug\1040_MoveStones.exe.config
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\bin\Debug\1040_MoveStones.exe
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\bin\Debug\1040_MoveStones.pdb
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\obj\Debug\1040_MoveStones.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\obj\Debug\1040_MoveStones.exe
+C:\Users\Administrator\Desktop\PracticeCode\PracticeCodeSolution\1040_MoveStones\obj\Debug\1040_MoveStones.pdb
