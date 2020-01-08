@@ -37,35 +37,6 @@ namespace _1040_MoveStones
             }
                 
             return  new int[2]{ minMove, maxMove };
-        } 
-
-        public void MaxMoveslIne(int [] stones)
-        {
-            int maxMove = 0;
-            //Array.Sort(stones);
-            int n = stones.Length;
-            int noValueLength = stones[n - 1] - stones[0] + 1 - n;
-            int lossNoValueLengthByLeftMove = stones[1] - stones[0] + 1 - 2;
-            int lossNoValueLengthByRightMove = stones[n - 1] - stones[n - 2] + 1 - 2;
-            if (noValueLength > 0)
-            {
-                if (lossNoValueLengthByLeftMove < lossNoValueLengthByRightMove)
-                {
-                    int temp = 0;
-                    temp = stones[0];
-                    stones[0] = stones[1];
-                    stones[1] = temp;                    
-                }
-                else
-                {
-                    int temp = 0;
-                    temp = stones[n-1];
-                    stones[n-1] = stones[n-2];
-                    stones[n-2] = temp;
-                }
-                Console.WriteLine(stones.ToString());
-                MaxMoveslIne(stones);
-            }            
-        }
+        }         
     }
 }

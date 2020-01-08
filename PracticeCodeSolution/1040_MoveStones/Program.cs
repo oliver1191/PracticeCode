@@ -24,8 +24,7 @@ namespace _1040_MoveStones
             int[] stones = new int[] {6,5,4,3,10};
             MoveStonesTool tool = new MoveStonesTool();
             var result=tool.numMovesStone(stones);
-            Console.WriteLine("MinMove:{0},MaxMove:{1}",result[0],result[1]);
-            tool.MaxMoveslIne(stones);
+            Console.WriteLine("MinMove:{0},MaxMove:{1}",result[0],result[1]);            
             Console.ReadKey();
         }
     }
